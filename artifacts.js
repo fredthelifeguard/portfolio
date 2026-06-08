@@ -7,51 +7,37 @@
  */
 window.ARTIFACTS = [
   {
-    title: "Artifact 1",
-    placeholder: true,
+    title: "LLM Convergence as a Reliability Signal",
     description:
-      "Short description of the artifact and its scope (1–2 sentences). Will be replaced when a real deliverable is added.",
+      "Ran the same real-workplace prompt (a help desk taxonomy redesign for Huntington University's Jitbit instance) across three independent LLM conversations and analyzed the agreement pattern. Where the models converged marked safe ground; where they diverged flagged the genuinely contested design choices that required human judgment.",
     contribution:
-      "Which element of the value proposition this demonstrates (e.g., institutional fluency, FERPA-aware design, local-first implementation).",
+      "Institutional fluency: brought a live operational problem to AI tools instead of a hypothetical exercise, and evaluated the output as a practitioner.",
     audience:
-      "Who benefits from or evaluates this artifact (e.g., IT directors at small institutions, hiring committees).",
+      "IT decision-makers at small institutions weighing how much to trust LLM-generated recommendations on operational design.",
     value:
-      "The concrete problem solved or capability enabled by this work.",
+      "A repeatable calibration technique for using AI-generated work product confidently in institutional workflows, without requiring external expert verification on every output.",
   },
   {
-    title: "Artifact 2",
-    placeholder: true,
+    title: "Conversational AI Design from Observed Behavior",
     description:
-      "Short description of the artifact and its scope (1–2 sentences).",
-    contribution: "Element of value proposition this maps to.",
-    audience: "Primary audience for this artifact.",
-    value: "Problem solved or capability enabled.",
+      "Documented how a well-designed IT support GPT handles ambiguous user input (a deliberately vague iPhone water-damage scenario), then translated the observed question-asking pattern into a working help desk triage assistant built in Chatbase on synthetic, FERPA-safe KB content.",
+    contribution:
+      "End-user focus paired with FERPA-aware deployment: real institutional design context, no real institutional data.",
+    audience:
+      "IT support managers and help desk teams in small institutions evaluating AI assistants for first-line ticket triage.",
+    value:
+      "A concrete design pattern (frontload clarifying questions over fast guessing) demonstrated through both observation and implementation, with a live prototype as proof of concept.",
   },
   {
-    title: "Artifact 3",
-    placeholder: true,
+    title: "Auditing Generative Research Tools with Subject Expertise",
     description:
-      "Short description of the artifact and its scope (1–2 sentences).",
-    contribution: "Element of value proposition this maps to.",
-    audience: "Primary audience for this artifact.",
-    value: "Problem solved or capability enabled.",
+      "Used STORM AI to generate a research article on Unified Memory Architecture, the platform that runs my personal AI workstation, and evaluated the output as a domain practitioner rather than as a novice exploring an unfamiliar topic.",
+    contribution:
+      "Technical capability paired with critical evaluation: subject-matter expertise functioning as a quality filter on AI-generated content.",
+    audience:
+      "Faculty and instructional designers weighing how to scaffold student use of generative research tools without ceding judgment to the tools themselves.",
+    value:
+      "A worked example of where AI research tools are reliable, where they oversimplify, and how to teach students to spot the difference.",
   },
-  {
-    title: "Artifact 4",
-    placeholder: true,
-    description:
-      "Short description of the artifact and its scope (1–2 sentences).",
-    contribution: "Element of value proposition this maps to.",
-    audience: "Primary audience for this artifact.",
-    value: "Problem solved or capability enabled.",
-  },
-  {
-    title: "Artifact 5",
-    placeholder: true,
-    description:
-      "Short description of the artifact and its scope (1–2 sentences).",
-    contribution: "Element of value proposition this maps to.",
-    audience: "Primary audience for this artifact.",
-    value: "Problem solved or capability enabled.",
-  },
+  // remaining placeholders kept below if you want to add more later
 ];
