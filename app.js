@@ -41,6 +41,18 @@
     metaPair("Value delivered", item.value).forEach(function (n) { meta.appendChild(n); });
     main.appendChild(meta);
 
+    if (item.link) {
+      var linkLabel = item.linkLabel || "View artifact \u2192";
+      var link = el("a", {
+        class: "artifact__link",
+        href: item.link,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        text: linkLabel
+      });
+      main.appendChild(link);
+    }
+
     li.appendChild(main);
     return li;
   }
