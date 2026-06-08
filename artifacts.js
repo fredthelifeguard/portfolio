@@ -7,37 +7,36 @@
  */
 window.ARTIFACTS = [
   {
-    title: "LLM Convergence as a Reliability Signal",
+    title: "AI/ML History Timeline",
     description:
-      "Ran the same real-workplace prompt (a help desk taxonomy redesign for Huntington University's Jitbit instance) across three independent LLM conversations and analyzed the agreement pattern. Where the models converged marked safe ground; where they diverged flagged the genuinely contested design choices that required human judgment.",
+      "Built a visual timeline tracking the development of artificial intelligence and machine learning from early symbolic systems through modern frontier models, hosted at https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/. Designed as both a personal learning artifact and a scannable reference for colleagues new to the field.",
     contribution:
-      "Institutional fluency: brought a live operational problem to AI tools instead of a hypothetical exercise, and evaluated the output as a practitioner.",
+      "Domain literacy. Understanding the historical lineage of AI/ML developments is a useful filter for separating genuine novelty from rebranded prior work when evaluating vendor claims.",
     audience:
-      "IT decision-makers at small institutions weighing how much to trust LLM-generated recommendations on operational design.",
+      "IT colleagues, faculty, and institutional decision-makers who want orientation to the field without committing to a textbook. Useful in higher-ed conversations where stakeholders may not have a technical background.",
     value:
-      "A repeatable calibration technique for using AI-generated work product confidently in institutional workflows, without requiring external expert verification on every output.",
+      "A reference resource for situating current AI developments in their historical context, especially helpful for explaining why a particular technology matters now versus five years ago.",
   },
   {
-    title: "Conversational AI Design from Observed Behavior",
+    title: "AI Help Desk Triage Assistant (Design Thinking Cycle)",
     description:
-      "Documented how a well-designed IT support GPT handles ambiguous user input (a deliberately vague iPhone water-damage scenario), then translated the observed question-asking pattern into a working help desk triage assistant built in Chatbase on synthetic, FERPA-safe KB content.",
+      "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. The process began with structured experimentation across multiple LLMs, custom GPTs, and research tools to extract interaction-design patterns (the most useful being that well-designed support assistants frontload clarifying questions rather than guess from ambiguous input), then implemented those patterns in a working prototype in Chatbase, grounded in a redacted institutional knowledge base. The live prototype is accessible at https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help.",
     contribution:
-      "End-user focus paired with FERPA-aware deployment: real institutional design context, no real institutional data.",
+      "Combines all four elements of the value proposition: institutional fluency (a real Huntington University use case), FERPA-aware design (synthetic and redacted KB content rather than live institutional data), local-first considerations (Claude Project as a deployment alternative analyzed), and end-user focus (the design pattern of asking before assuming).",
     audience:
-      "IT support managers and help desk teams in small institutions evaluating AI assistants for first-line ticket triage.",
+      "IT leadership at small institutions evaluating whether AI triage can reduce first-line ticket volume, and hiring committees looking for evidence of design thinking applied to actual AI deployment rather than theoretical exercises.",
     value:
-      "A concrete design pattern (frontload clarifying questions over fast guessing) demonstrated through both observation and implementation, with a live prototype as proof of concept.",
+      "A working prototype demonstrating that thoughtful AI deployment for institutional support is achievable on free-tier tools with appropriate attention to data governance. The artifact shows the full process from observation through implementation, not just a finished product.",
   },
   {
-    title: "Auditing Generative Research Tools with Subject Expertise",
+    title: "Leading as a Learner: Self-Assessment with Critical Revision",
     description:
-      "Used STORM AI to generate a research article on Unified Memory Architecture, the platform that runs my personal AI workstation, and evaluated the output as a domain practitioner rather than as a novice exploring an unfamiliar topic.",
+      "Completed self-assessments on AI/ML leadership and change management, identified specific strengths and growth areas, and proposed structured improvements to both instruments. The meta-move (assessing the assessment itself) elevates the artifact from compliance with an exercise into a model of how to engage critically with professional development tools.",
     contribution:
-      "Technical capability paired with critical evaluation: subject-matter expertise functioning as a quality filter on AI-generated content.",
+      "Self-awareness in service of institutional fit. Naming a specific weakness like \"I'm not yet fluent in enterprise AI/ML hardware pricing trends, which would block me from credibly proposing budgets for AI initiatives\" is more actionable than a generic gap statement and signals readiness to do the work rather than perform humility.",
     audience:
-      "Faculty and instructional designers weighing how to scaffold student use of generative research tools without ceding judgment to the tools themselves.",
+      "Hiring committees and mentors who value honest self-diagnosis over polished self-presentation, and colleagues considering similar self-assessment practices.",
     value:
-      "A worked example of where AI research tools are reliable, where they oversimplify, and how to teach students to spot the difference.",
+      "A documented commitment to professional growth with concrete weaknesses named (enterprise hardware pricing literacy, change management framework familiarity) and concrete proposals to improve the assessment instruments themselves (adding prompt engineering and frontier model literacy to AI/ML; adding leadership style identification with mitigation planning to Change Management).",
   },
-  // remaining placeholders kept below if you want to add more later
 ];
