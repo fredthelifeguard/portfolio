@@ -43,4 +43,23 @@ window.ARTIFACTS = [
     value:
       "A documented commitment to professional growth with concrete weaknesses named (enterprise hardware pricing literacy, change management framework familiarity) and concrete proposals to improve the assessment instruments themselves (adding prompt engineering and frontier model literacy to AI/ML; adding leadership style identification with mitigation planning to Change Management).",
   },
+{
+  title: "AI/ML History Timeline",
+  description: "...",
+  // ... existing fields ...
+  image: "images/Timeline Screenshot.png",
+  imageAlt: "Screenshot of the AI/ML history timeline showing entries from 1950 through 1997, including the Turing Test, Dartmouth Workshop, and Deep Blue defeating Kasparov.",
+  link: "https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/",
+  linkLabel: "View the timeline \u2192",
+},
+{
+  title: "AI Help Desk Triage Assistant (Design Thinking Cycle)",
+  description: "...",
+  // ... existing fields ...
+  image: "images/Chatbase Screenshot.png",
+  imageAlt: "Screenshot of the Huntington University help desk chatbot interface, showing a prompt asking 'How can I help you today?' with contact information for the IT help desk below.",
+  link: "https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help",
+  linkLabel: "Open the live prototype \u2192",
+},
+  
 ];
