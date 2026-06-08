@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Justin Simmons &mdash; Portfolio</title>
+  <meta name="description" content="Justin Simmons. Higher-education IT professional and MS in Artificial Intelligence and Data Analytics candidate. Portfolio for AI Solutions Engineering.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip" href="#vp">Skip to content</a>
+
+  <header class="masthead" aria-label="Masthead">
+    <span class="masthead__mark">JS</span>
+    <span class="masthead__title">Portfolio</span>
+    <nav class="masthead__nav" aria-label="Sections">
+      <a href="#vp">&sect; I</a>
+      <a href="#work">&sect; II</a>
+      <a href="#about">&sect; III</a>
+      <a href="#contact">&sect; IV</a>
+    </nav>
+    <span class="masthead__year">MMXXVI</span>
+  </header>
+
+  <main class="page">
+
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__inner">
+        <p class="hero__kicker"><span>Indiana</span><span class="dot">&middot;</span><span>USA</span></p>
+        <h1 class="hero__name">
+          <span class="hero__name-line">Justin</span>
+          <span class="hero__name-line hero__name-line--indent">Simmons</span>
+        </h1>
+        <p class="hero__identity">
+          Higher-education IT professional <span class="amp">&amp;</span> Master&rsquo;s candidate in <em>Artificial Intelligence and Data Analytics</em>, Indiana Wesleyan University.
+        </p>
+        <p class="hero__tagline">
+          Practical AI for institutions with real constraints.
+        </p>
+      </div>
+      <aside class="hero__meta" aria-hidden="true">
+        <div><span class="meta-label">Issue</span><span class="meta-value">No. 01</span></div>
+        <div><span class="meta-label">Target</span><span class="meta-value">AI Solutions Engineer</span></div>
+        <div><span class="meta-label">Completion</span><span class="meta-value">July 2027</span></div>
+      </aside>
+    </section>
+
+    <section id="vp" class="vp section" aria-labelledby="vp-heading">
+      <div class="section__marker"><span class="sigil">&sect;</span><span class="numeral">I</span></div>
+      <div class="section__body">
+        <h2 id="vp-heading" class="section__heading">Value proposition</h2>
+        <blockquote class="vp__statement">
+          As a higher-education IT professional pursuing a Master&rsquo;s in Artificial Intelligence and Data Analytics, I help small and mid-sized institutions deploy AI systems that meet their actual constraints: limited budgets, FERPA compliance, faculty skepticism, and end-users who need things to just work. My background spans service desk operations through infrastructure to local-first AI implementation &mdash; combining institutional fluency with technical capability. Above all, the work is grounded in a commitment to serving the students, faculty, and staff who depend on technology to do their daily work.
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="work" class="work section" aria-labelledby="work-heading">
+      <div class="section__marker"><span class="sigil">&sect;</span><span class="numeral">II</span></div>
+      <div class="section__body">
+        <h2 id="work-heading" class="section__heading">Selected work</h2>
+        <p class="section__note">Artifacts produced during the MS-AIDA program and adjacent practice. Each entry maps to a single element of the value proposition.</p>
+        <ol id="artifact-list" class="artifacts" aria-live="polite"></ol>
+      </div>
+    </section>
+
+    <section id="about" class="about section" aria-labelledby="about-heading">
+      <div class="section__marker"><span class="sigil">&sect;</span><span class="numeral">III</span></div>
+      <div class="section__body">
+        <h2 id="about-heading" class="section__heading">About</h2>
+        <div class="about__body">
+          <p class="placeholder-text">
+            <span class="dropcap" aria-hidden="true">P</span>laceholder bio &mdash; to be written. A short paragraph here covering background, current role, what drew me to the MS-AIDA program, and the working philosophy that shapes how I approach AI implementation in higher education.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section" aria-labelledby="contact-heading">
+      <div class="section__marker"><span class="sigil">&sect;</span><span class="numeral">IV</span></div>
+      <div class="section__body">
+        <h2 id="contact-heading" class="section__heading">Correspondence</h2>
+        <dl class="contact__list">
+          <div class="contact__row"><dt>Email</dt><dd class="placeholder-text">jmjpsimmons@gmail.com</dd>
+          </div>
+          <div class="contact__row"><dt>LinkedIn</dt><dd class="placeholder-text">www.linkedin.com/in/justin-simmons-33224a186</dd>
+		  </div>
+          <div class="contact__row"><dt>Location</dt><dd class="placeholder-text">Indiana, USA</dd></div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="colophon" aria-label="Colophon">
+    <p class="colophon__line">
+      <span>Set in <em>Newsreader</em>, IBM Plex Sans, and IBM Plex Mono.</span>
+      <span class="colophon__rule" aria-hidden="true"></span>
+      <span> <span id="year"></span> Justin Simmons.</span>
+    </p>
+  </footer>
+
+  <script src="artifacts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
