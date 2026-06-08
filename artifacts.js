@@ -16,7 +16,7 @@ window.ARTIFACTS = [
       "IT colleagues, faculty, and institutional decision-makers who want orientation to the field without committing to a textbook. Useful in higher-ed conversations where stakeholders may not have a technical background.",
     value:
       "A reference resource for situating current AI developments in their historical context, especially helpful for explaining why a particular technology matters now versus five years ago.",
-    image: "images/Timeline Screenshot.png",
+    image: "images/Timelinescreenshot.png",
     imageAlt: "Screenshot of the AI/ML history timeline showing entries from 1950 through 1997, including the Turing Test, Dartmouth Workshop, and Deep Blue defeating Kasparov.",
     link: "https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/",
     linkLabel: "View the timeline \u2192",
@@ -31,7 +31,7 @@ window.ARTIFACTS = [
       "IT leadership at small institutions evaluating whether AI triage can reduce first-line ticket volume, and hiring committees looking for evidence of design thinking applied to actual AI deployment rather than theoretical exercises.",
     value:
       "A working prototype demonstrating that thoughtful AI deployment for institutional support is achievable on free-tier tools with appropriate attention to data governance. The artifact shows the full process from observation through implementation, not just a finished product.",
-    image: "images/Chatbase Screenshot.png",
+    image: "images/Chatbasescreenshot.png",
     imageAlt: "Screenshot of the Huntington University help desk chatbot interface, showing a prompt asking 'How can I help you today?' with contact information for the IT help desk below.",
     link: "https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help",
     linkLabel: "Open the live prototype \u2192",
