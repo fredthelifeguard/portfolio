@@ -446,6 +446,16 @@ a:hover { color: var(--rust); }
   line-height: 1.45;
   color: var(--ink-2);
 }
+
+.artifact__image {
+  display: block;
+  width: 100%;
+  max-width: 32rem;
+  height: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
 /* Hover state: subtle ink/rust shift, hairline under title */
 .artifact { transition: background-color 200ms ease; }
 .artifact:hover,
