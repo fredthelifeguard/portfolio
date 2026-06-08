@@ -30,4 +30,43 @@
     var meta = el("dl", { class: "artifact__meta" });
     metaPair("Contribution", item.contribution).forEach(function (n) { meta.appendChild(n); });
     metaPair("Audience", item.audience).forEach(function (n) { meta.appendChild(n); });
-    metaPair("Value delivered", item.value).forEach(function (n) { meta.appe
+    metaPair("Value delivered", item.value).forEach(function (n) { meta.appendChild(n); });
+    main.appendChild(meta);
+    if (item.image) {
+      var img = el("img", {
+        class: "artifact__image",
+        src: item.image,
+        alt: item.imageAlt || ""
+      });
+      main.appendChild(img);
+    }
+    if (item.link) {
+      var linkLabel = item.linkLabel || "View artifact \u2192";
+      var link = el("a", {
+        class: "artifact__link",
+        href: item.link,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        text: linkLabel
+      });
+      main.appendChild(link);
+    }
+    li.appendChild(main);
+    return li;
+  }
+  function render() {
+    var list = document.getElementById("artifact-list");
+    var items = (window.ARTIFACTS || []);
+    if (list) {
+      list.innerHTML = "";
+      items.forEach(function (item) { list.appendChild(renderArtifact(item)); });
+    }
+    var year = document.getElementById("year");
+    if (year) year.textContent = String(new Date().getFullYear());
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", render);
+  } else {
+    render();
+  }
+})();
