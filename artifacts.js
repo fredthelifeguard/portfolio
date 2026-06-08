@@ -22,9 +22,9 @@ window.ARTIFACTS = [
   {
     title: "AI Help Desk Triage Assistant (Design Thinking Cycle)",
     description:
-      "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. The process began with structured experimentation across multiple LLMs, custom GPTs, and research tools to extract interaction-design patterns (the most useful being that well-designed support assistants frontload clarifying questions rather than guess from ambiguous input), then implemented those patterns in a working prototype in Chatbase, grounded in a redacted institutional knowledge base.",
+      "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. Result is a working prototype in Chatbase, grounded in a redacted institutional knowledge base.",
     contribution:
-      "Combines all four elements of the value proposition: institutional fluency (a real Huntington University use case), FERPA-aware design (synthetic and redacted KB content rather than live institutional data), local-first considerations (Claude Project as a deployment alternative analyzed), and end-user focus (the design pattern of asking before assuming).",
+      "Combines the elements of the value proposition: institutional fluency (a real Huntington University use case), FERPA-aware design (synthetic and redacted KB content rather than live institutional data), and end-user focus (the design pattern of asking before assuming).",
     audience:
       "IT leadership at small institutions evaluating whether AI triage can reduce first-line ticket volume, and hiring committees looking for evidence of design thinking applied to actual AI deployment rather than theoretical exercises.",
     value:
