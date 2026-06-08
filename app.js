@@ -49,8 +49,18 @@
         target: "_blank",
         rel: "noopener noreferrer",
         text: linkLabel
+
+        if (item.image) {
+  var img = el("img", {
+    class: "artifact__image",
+    src: item.image,
+    alt: item.imageAlt || ""
+  });
+  main.appendChild(img);
+}
       });
       main.appendChild(link);
+      
     }
 
     li.appendChild(main);
