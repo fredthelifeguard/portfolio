@@ -9,24 +9,28 @@ window.ARTIFACTS = [
   {
     title: "AI/ML History Timeline",
     description:
-      "Built a visual timeline tracking the development of artificial intelligence and machine learning from early symbolic systems through modern frontier models, hosted at https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/. Designed as both a personal learning artifact and a scannable reference for colleagues new to the field.",
+      "Built a visual timeline tracking the development of artificial intelligence and machine learning from early symbolic systems through modern frontier models. Designed as both a personal learning artifact and a scannable reference for colleagues new to the field.",
     contribution:
       "Domain literacy. Understanding the historical lineage of AI/ML developments is a useful filter for separating genuine novelty from rebranded prior work when evaluating vendor claims.",
     audience:
       "IT colleagues, faculty, and institutional decision-makers who want orientation to the field without committing to a textbook. Useful in higher-ed conversations where stakeholders may not have a technical background.",
     value:
       "A reference resource for situating current AI developments in their historical context, especially helpful for explaining why a particular technology matters now versus five years ago.",
+    link: "https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/",
+    linkLabel: "View the timeline \u2192",
   },
   {
     title: "AI Help Desk Triage Assistant (Design Thinking Cycle)",
     description:
-      "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. The process began with structured experimentation across multiple LLMs, custom GPTs, and research tools to extract interaction-design patterns (the most useful being that well-designed support assistants frontload clarifying questions rather than guess from ambiguous input), then implemented those patterns in a working prototype in Chatbase, grounded in a redacted institutional knowledge base. The live prototype is accessible at https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help.",
+      "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. The process began with structured experimentation across multiple LLMs, custom GPTs, and research tools to extract interaction-design patterns (the most useful being that well-designed support assistants frontload clarifying questions rather than guess from ambiguous input), then implemented those patterns in a working prototype in Chatbase, grounded in a redacted institutional knowledge base.",
     contribution:
       "Combines all four elements of the value proposition: institutional fluency (a real Huntington University use case), FERPA-aware design (synthetic and redacted KB content rather than live institutional data), local-first considerations (Claude Project as a deployment alternative analyzed), and end-user focus (the design pattern of asking before assuming).",
     audience:
       "IT leadership at small institutions evaluating whether AI triage can reduce first-line ticket volume, and hiring committees looking for evidence of design thinking applied to actual AI deployment rather than theoretical exercises.",
     value:
       "A working prototype demonstrating that thoughtful AI deployment for institutional support is achievable on free-tier tools with appropriate attention to data governance. The artifact shows the full process from observation through implementation, not just a finished product.",
+    link: "https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help",
+    linkLabel: "Open the live prototype \u2192",
   },
   {
     title: "Leading as a Learner: Self-Assessment with Critical Revision",
