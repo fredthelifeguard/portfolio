@@ -47,4 +47,16 @@ window.ARTIFACTS = [
     value:
       "A documented commitment to professional growth with concrete weaknesses named (enterprise hardware pricing literacy, change management framework familiarity) and concrete proposals to improve the assessment instruments themselves (adding prompt engineering and frontier model literacy to AI/ML; adding leadership style identification with mitigation planning to Change Management).",
   },
+  {
+      title: "Machine Learning vs Deep Learning",
+    description:
+      "An informative, brief paper using examples of real world use cases describing the differences between machine learning and deep learning",
+    contribution:
+      "Demonstrates the ability to ground abstract knowledge in real world examples as well as making difficult concepts approachable to non-technical individuals",
+    audience:
+      "Business leadership and other users who would benefit from a stronger understanding of AI concepts",
+    value:
+      "A written exploration of the distinction between classical machine learning and deep learning, framed around the engineering judgment that actually matters: matching the approach to the problem rather than defaulting to the more powerful tool. Uses spam filtering and computer vision as contrasting cases to show why 'more capable' and 'more appropriate' are different questions.",
+    link: "mlvsdl.pdf",
+    linkLabel: "Read the paper \u2192",
 ];
