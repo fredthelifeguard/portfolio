@@ -37,15 +37,15 @@ window.ARTIFACTS = [
     linkLabel: "Open the live prototype \u2192",
   },
   {
-    title: "Leading as a Learner: Self-Assessment with Critical Revision",
+    title: "AI as a Learning Medium",
     description:
-      "Completed self-assessments on AI/ML leadership and change management, identified specific strengths and growth areas, and proposed structured improvements to both instruments. The meta-move (assessing the assessment itself) elevates the artifact from compliance with an exercise into a model of how to engage critically with professional development tools.",
+      "Used a conversational AI tutor to learn neural network fundamentals, then stepped back to evaluate the tool itself as a teaching medium: where the tutored, dialogic format genuinely aided understanding, and where it fell short of a lecture or a text. A reflection on AI-mediated learning from the inside.",
     contribution:
-      "Self-awareness in service of institutional fit. Naming a specific weakness like \"I'm not yet fluent in enterprise AI/ML hardware pricing trends, which would block me from credibly proposing budgets for AI initiatives\" is more actionable than a generic gap statement and signals readiness to do the work rather than perform humility.",
+      "Pedagogical evaluation. Assessing where conversational AI succeeds and fails as a teaching tool, the meta-skill required to responsibly recommend or deploy AI tutors for faculty development and student learning, rather than simply consuming the output. Demonstrates judgment about the medium, not just familiarity with it.",
     audience:
-      "Hiring committees and mentors who value honest self-diagnosis over polished self-presentation, and colleagues considering similar self-assessment practices.",
+      "Faculty, instructional designers, and committees weighing whether to bring AI tutoring tools onto campus. Useful for decision-makers who need someone able to critically assess AI as a learning medium before it reaches students, not just operate it.",
     value:
-      "A documented commitment to professional growth with concrete weaknesses named (enterprise hardware pricing literacy, change management framework familiarity) and concrete proposals to improve the assessment instruments themselves (adding prompt engineering and frontier model literacy to AI/ML; adding leadership style identification with mitigation planning to Change Management).",
+      "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
   },
    {
  title: "Machine Learning vs Deep Learning",
