@@ -63,6 +63,7 @@ title: "AI as a Learning Medium (Workshop 3.5)",
       "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
       image: "schoolai.png",
     imageAlt: "schoolai logo"
-   {
+    },
+  {
   
 ];
