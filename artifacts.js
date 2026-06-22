@@ -61,7 +61,8 @@ title: "AI as a Learning Medium (Workshop 3.5)",
       "Faculty, instructional designers, and committees weighing whether to bring AI tutoring tools onto campus. Useful for decision-makers who need someone able to critically assess AI as a learning medium before it reaches students, not just operate it.",
     value:
       "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
-  },
+      image: "schoolai.png",
+    imageAlt: "schoolai logo"
    {
   
 ];
