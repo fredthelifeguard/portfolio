@@ -7,7 +7,7 @@
  */
 window.ARTIFACTS = [
   {
-    title: "AI/ML History Timeline",
+    title: "AI/ML History Timeline (Workshop 1.5.1)",
     description:
       "Built a visual timeline tracking the development of artificial intelligence and machine learning from early symbolic systems through modern frontier models. Designed as both a personal learning artifact and a scannable reference for colleagues new to the field.",
     contribution:
@@ -22,7 +22,7 @@ window.ARTIFACTS = [
     linkLabel: "View the timeline \u2192",
   },
   {
-    title: "AI Help Desk Triage Assistant (Design Thinking Cycle)",
+    title: "AI Help Desk Triage Assistant (Workshop 1.5.2)",
     description:
       "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. Result is a working prototype in Chatbase, grounded in a redacted institutional knowledge base.",
     contribution:
@@ -37,7 +37,7 @@ window.ARTIFACTS = [
     linkLabel: "Open the live prototype \u2192",
   },
   {
- title: "Machine Learning vs Deep Learning",
+ title: "Machine Learning vs Deep Learning (Workshop 2.5)",
     description:
       "An informative, brief paper using real-world use cases to describe the differences between machine learning and deep learning.",
     contribution:
