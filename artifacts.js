@@ -37,17 +37,6 @@ window.ARTIFACTS = [
     linkLabel: "Open the live prototype \u2192",
   },
   {
-    title: "AI as a Learning Medium",
-    description:
-      "Used a conversational AI tutor to learn neural network fundamentals, then stepped back to evaluate the tool itself as a teaching medium: where the tutored, dialogic format genuinely aided understanding, and where it fell short of a lecture or a text. A reflection on AI-mediated learning from the inside.",
-    contribution:
-      "Pedagogical evaluation. Assessing where conversational AI succeeds and fails as a teaching tool, the meta-skill required to responsibly recommend or deploy AI tutors for faculty development and student learning, rather than simply consuming the output. Demonstrates judgment about the medium, not just familiarity with it.",
-    audience:
-      "Faculty, instructional designers, and committees weighing whether to bring AI tutoring tools onto campus. Useful for decision-makers who need someone able to critically assess AI as a learning medium before it reaches students, not just operate it.",
-    value:
-      "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
-  },
-   {
  title: "Machine Learning vs Deep Learning",
     description:
       "An informative, brief paper using real-world use cases to describe the differences between machine learning and deep learning.",
@@ -62,4 +51,17 @@ window.ARTIFACTS = [
     link: "mlvsdl.pdf",
     linkLabel: "Read the paper \u2192",
   },
+    {
+title: "AI as a Learning Medium (Workshop 3.5)",
+    description:
+      "Used a conversational AI tutor to learn neural network fundamentals, then stepped back to evaluate the tool itself as a teaching medium: where the tutored, dialogic format genuinely aided understanding, and where it fell short of a lecture or a text. A reflection on AI-mediated learning from the inside.",
+    contribution:
+      "Pedagogical evaluation. Assessing where conversational AI succeeds and fails as a teaching tool, the meta-skill required to responsibly recommend or deploy AI tutors for faculty development and student learning, rather than simply consuming the output. Demonstrates judgment about the medium, not just familiarity with it.",
+    audience:
+      "Faculty, instructional designers, and committees weighing whether to bring AI tutoring tools onto campus. Useful for decision-makers who need someone able to critically assess AI as a learning medium before it reaches students, not just operate it.",
+    value:
+      "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
+  },
+   {
+  
 ];
