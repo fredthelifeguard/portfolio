@@ -66,4 +66,20 @@ window.ARTIFACTS = [
     link: "",
     linkLabel: "View the session \u2192",
   },
+{
+    title: "AI Governance Operating Framework (Workshop 4.5)",
+    description:
+      "A personal governance framework for evaluating AI tools before institutional adoption, built from a single foundational principle: AI is a contained tool, not a neutral one. Moves from that principle to three concrete operating practices covering tool provenance, on-premises deployment, and automation bias.",
+    contribution:
+      "AI governance and risk judgment. Articulating not just whether a tool works but whether it should be adopted, where its data lives, and what bias it carries, the judgment that has to precede deployment at a FERPA-bound institution. Demonstrates a defensible, repeatable basis for saying no, or saying not yet, to an AI initiative.",
+    audience:
+      "IT and academic leadership, data governance stakeholders, and committees fielding a constant stream of AI adoption requests. Useful for decision-makers who need someone able to vet tools against institutional risk and bias before they reach a student, not just stand them up.",
+    value:
+      "A clear, principled stance on AI adoption that turns an abstract commitment to responsible AI into operational practice: interrogate provenance, prefer infrastructure you control, and govern against a model's tendency to tell users what they want to hear. The reasoning an institution needs in the room before the enthusiasm outruns the safeguards.",
+    image: "governanceframework.png",
+    imageAlt: "First page of the AI Governance Operating Framework, showing the foundational principle that AI is a contained rather than neutral tool, followed by three numbered operating practices.",
+    link: "aigovernance.pdf",
+    linkLabel: "Read the framework \u2192",
+  },
+  
 ];
