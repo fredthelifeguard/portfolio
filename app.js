@@ -38,7 +38,19 @@
         src: item.image,
         alt: item.imageAlt || ""
       });
-      main.appendChild(img);
+      if (item.link) {
+        var imgLink = el("a", {
+          class: "artifact__image-link",
+          href: item.link,
+          target: "_blank",
+          rel: "noopener noreferrer",
+          tabindex: "-1",
+          "aria-hidden": "true"
+        }, [img]);
+        main.appendChild(imgLink);
+      } else {
+        main.appendChild(img);
+      }
     }
     if (item.link) {
       var linkLabel = item.linkLabel || "View artifact \u2192";
