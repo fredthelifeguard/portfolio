@@ -456,6 +456,21 @@ a:hover { color: var(--rust); }
   border: 1px solid var(--rule);
   border-radius: 2px;
 }
+/* Clickable artifact image: anchor owns spacing, image gets rust-border hover */
+a.artifact__image-link {
+  display: block;
+  width: 100%;
+  max-width: 32rem;
+  margin: 1.5rem 0;
+}
+a.artifact__image-link .artifact__image {
+  margin: 0;
+  transition: opacity 160ms ease, border-color 160ms ease;
+}
+a.artifact__image-link:hover .artifact__image {
+  opacity: 0.92;
+  border-color: var(--rust);
+}
 /* Hover state: subtle ink/rust shift, hairline under title */
 .artifact { transition: background-color 200ms ease; }
 .artifact:hover,
