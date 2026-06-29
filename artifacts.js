@@ -52,7 +52,7 @@ window.ARTIFACTS = [
     linkLabel: "Read the paper \u2192",
   },
   {
-    title: "AI as a Learning Medium (Workshop 3.5)",
+    title: "AI as a Learning Medium (Workshop 3.5 and 4.5)",
     description:
       "Used a conversational AI tutor to learn neural network fundamentals, then stepped back to evaluate the tool itself as a teaching medium: where the tutored, dialogic format genuinely aided understanding, and where it fell short of a lecture or a text. A reflection on AI-mediated learning from the inside.",
     contribution:
