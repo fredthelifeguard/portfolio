@@ -63,8 +63,7 @@ window.ARTIFACTS = [
       "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
     image: "schoolai.png",
     imageAlt: "Screenshot of the SchoolAI tutoring session on neural network fundamentals.",
-    link: "",
-    linkLabel: "View the session \u2192",
+    link: "",  // SchoolAI session isn't publicly linkable; add a PDF export here to give this artifact an outbound link
   },
 {
     title: "AI Governance Operating Framework (Workshop 4.5)",
