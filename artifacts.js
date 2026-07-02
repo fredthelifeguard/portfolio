@@ -17,6 +17,8 @@ window.ARTIFACTS = [
     value:
       "A reference resource for situating current AI developments in their historical context, especially helpful for explaining why a particular technology matters now versus five years ago.",
     image: "Timelinescreenshot.png",
+    imageWidth: 2140,
+    imageHeight: 912,
     imageAlt: "Screenshot of the AI/ML history timeline showing entries from 1950 through 1997, including the Turing Test, Dartmouth Workshop, and Deep Blue defeating Kasparov.",
     link: "https://www.tiki-toki.com/timeline/entry/2248215/AIML-Timeline/",
     linkLabel: "View the timeline \u2192",
@@ -32,6 +34,8 @@ window.ARTIFACTS = [
     value:
       "A working prototype demonstrating that thoughtful AI deployment for institutional support is achievable on free-tier tools with appropriate attention to data governance. The artifact shows the full process from observation through implementation, not just a finished product.",
     image: "Chatbasescreenshot.png",
+    imageWidth: 2061,
+    imageHeight: 947,
     imageAlt: "Screenshot of the Huntington University help desk chatbot interface, showing a prompt asking 'How can I help you today?' with contact information for the IT help desk below.",
     link: "https://www.chatbase.co/NP0utbglTnwGv86Cgn5q6/help",
     linkLabel: "Open the live prototype \u2192",
@@ -47,6 +51,8 @@ window.ARTIFACTS = [
     value:
       "A written exploration of the distinction between classical machine learning and deep learning, framed around the engineering judgment that actually matters: matching the approach to the problem rather than defaulting to the more powerful tool. Uses spam filtering and computer vision as contrasting cases to show why 'more capable' and 'more appropriate' are different questions.",
     image: "mlvsdlinfographic.png",
+    imageWidth: 600,
+    imageHeight: 1499,
     imageAlt: "Infographic titled 'Machine Learning vs. Deep Learning Explained,' using a decision-tree format. A traditional programming section notes that a human writes the rules and no learning is involved, followed by side-by-side machine learning and deep learning columns posing questions that guide the reader toward the right approach for their problem.",
     link: "mlvsdl.pdf",
     linkLabel: "Read the paper \u2192",
@@ -62,6 +68,8 @@ window.ARTIFACTS = [
     value:
       "A firsthand, critical read on AI-mediated learning: what the format does well, where it misleads or oversimplifies, and what that implies for deploying these tools at an institution. The judgment that has to come before any responsible classroom recommendation.",
     image: "schoolai.png",
+    imageWidth: 500,
+    imageHeight: 176,
     imageAlt: "Screenshot of the SchoolAI tutoring session on neural network fundamentals.",
     link: "",  // SchoolAI session isn't publicly linkable; add a PDF export here to give this artifact an outbound link
   },
@@ -76,6 +84,8 @@ window.ARTIFACTS = [
     value:
       "A clear, principled stance on AI adoption that turns an abstract commitment to responsible AI into operational practice: interrogate provenance, prefer infrastructure you control, and govern against a model's tendency to tell users what they want to hear. The reasoning an institution needs in the room before the enthusiasm outruns the safeguards.",
     image: "governanceframework.png",
+    imageWidth: 1837,
+    imageHeight: 1458,
     imageAlt: "First page of the AI Governance Operating Framework, showing the foundational principle that AI is a contained rather than neutral tool, followed by three numbered operating practices.",
     link: "aigovernance.pdf",
     linkLabel: "Read the framework \u2192",
