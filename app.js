@@ -36,7 +36,10 @@
       var img = el("img", {
         class: "artifact__image",
         src: item.image,
-        alt: item.imageAlt || ""
+        alt: item.imageAlt || "",
+        loading: "lazy",
+        width: item.imageWidth || null,
+        height: item.imageHeight || null
       });
       if (item.link) {
         var imgLink = el("a", {
