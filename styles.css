@@ -319,6 +319,15 @@ a:hover { color: var(--rust); }
   .section__marker { position: static; margin-bottom: 0.75rem; padding-top: 0; }
 }
 
+.contact__row a {
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+.contact__row a:hover,
+.contact__row a:focus-visible { color: var(--rust); text-decoration-color: var(--rust); }
+
 /* ---------- VALUE PROPOSITION ---------- */
 .vp__statement {
   font-family: var(--serif);
@@ -329,18 +338,6 @@ a:hover { color: var(--rust); }
   padding-left: 1.5rem;
   border-left: 3px solid var(--rust);
   position: relative;
-}
-.vp__statement::before {
-  content: "“";
-  font-family: var(--serif);
-  font-size: 5rem;
-  line-height: 1;
-  color: var(--rust);
-  opacity: 0.18;
-  position: absolute;
-  left: 0.6rem;
-  top: -2.5rem;
-  pointer-events: none;
 }
 
 /* ---------- ARTIFACTS ---------- */
