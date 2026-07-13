@@ -74,21 +74,21 @@ window.ARTIFACTS = [
     link: "",  // SchoolAI session isn't publicly linkable; add a PDF export here to give this artifact an outbound link
   },
 {
-    title: "AI Governance Operating Framework (Workshop 4.5)",
+    title: "AI Leadership & Governance Framework (Workshops 4.5 \u2192 6.5)",
     description:
-      "A personal governance framework for evaluating AI tools before institutional adoption, built from a single foundational principle: AI is a contained tool, not a neutral one. Moves from that principle to three concrete operating practices covering tool provenance, on-premises deployment, and automation bias.",
+      "A personal framework for leading AI adoption, built from a single foundational principle: AI is a contained tool, not a neutral one. Began in Workshop 4 as a governance framework with three operating practices; revised in Workshop 6 into a full leadership framework adding a mission statement, core values, measurable objectives, action plans, and evaluation mechanisms. The revision is deliberate: the framework's own evaluation section requires that it be versioned, revisited, and never silently out of date.",
     contribution:
-      "AI governance and risk judgment. Articulating not just whether a tool works but whether it should be adopted, where its data lives, and what bias it carries, the judgment that has to precede deployment at a FERPA-bound institution. Demonstrates a defensible, repeatable basis for saying no, or saying not yet, to an AI initiative.",
+      "AI governance and leadership judgment. Articulating not just whether a tool works but whether it should be adopted, where its data lives, and what bias it carries \u2014 then extending that judgment into a leadership posture: measurable objectives, a mentoring practice, and a feedback structure in which human colleagues remain the final check on AI-assisted conclusions.",
     audience:
-      "IT and academic leadership, data governance stakeholders, and committees fielding a constant stream of AI adoption requests. Useful for decision-makers who need someone able to vet tools against institutional risk and bias before they reach a student, not just stand them up.",
+      "IT and academic leadership, data governance stakeholders, and hiring committees looking for evidence that responsible-AI commitments can be made operational \u2014 vetted before deployment, evaluated on a schedule, and revised on the record.",
     value:
-      "A clear, principled stance on AI adoption that turns an abstract commitment to responsible AI into operational practice: interrogate provenance, prefer infrastructure you control, and govern against a model's tendency to tell users what they want to hear. The reasoning an institution needs in the room before the enthusiasm outruns the safeguards.",
-    image: "governanceframework.png",
-    imageWidth: 1837,
-    imageHeight: 1458,
-    imageAlt: "First page of the AI Governance Operating Framework, showing the foundational principle that AI is a contained rather than neutral tool, followed by three numbered operating practices.",
-    link: "aigovernance.pdf",
-    linkLabel: "Read the framework \u2192",
+      "A clear, principled stance on AI adoption turned into operational practice: interrogate provenance, prefer infrastructure you control, and govern against a model's tendency to tell users what they want to hear. Version 2 demonstrates the framework doing what it prescribes \u2014 documented revision in response to evaluation.",
+    image: "containment.svg",
+    imageWidth: 900,
+    imageHeight: 420,
+    imageAlt: "Figure titled The Containment Spectrum, placing tools on an axis from tool-agnostic to bias-laden: a pencil at the agnostic end, a sword at the bias-laden end, an epee shown as bias contained by rule and guard, and artificial intelligence spanning the middle as a gradation rather than a point.",
+    link: "aileadershipframework.pdf",
+    linkLabel: "Read the framework, v2 \u2192",
   },
   
 ];
