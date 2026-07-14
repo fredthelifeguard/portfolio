@@ -26,6 +26,14 @@
       head.appendChild(el("span", { class: "artifact__status", text: "To be populated" }));
     }
     main.appendChild(head);
+    if (item.banner) {
+      main.appendChild(el("img", {
+        class: "artifact__banner",
+        src: item.banner,
+        alt: item.bannerAlt || "",
+        loading: "lazy"
+      }));
+    }
     main.appendChild(el("p", { class: "artifact__description", text: item.description }));
     var meta = el("dl", { class: "artifact__meta" });
     metaPair("Contribution", item.contribution).forEach(function (n) { meta.appendChild(n); });
@@ -85,3 +93,4 @@
     render();
   }
 })();
+ 
