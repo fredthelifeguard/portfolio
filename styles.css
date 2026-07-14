@@ -575,6 +575,13 @@ a.artifact__image-link:hover .artifact__image {
   min-width: 2rem;
 }
 
+.artifact__banner {
+  width: 100%;
+  height: auto;
+  margin: 0.75rem 0 1rem;
+  display: block;
+}
+
 /* ---------- placeholders ---------- */
 .placeholder-text { color: var(--ink-faint); font-style: italic; }
 
