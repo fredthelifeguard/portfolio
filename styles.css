@@ -1,4 +1,4 @@
-/* =========================================================
+* =========================================================
    Justin Simmons — Portfolio
    Editorial broadsheet. Newsreader / IBM Plex Sans / IBM Plex Mono.
    ========================================================= */
@@ -580,6 +580,10 @@ a.artifact__image-link:hover .artifact__image {
   height: auto;
   margin: 0.75rem 0 1rem;
   display: block;
+}
+
+.artifact__banner + .artifact__description {
+  max-width: none;
 }
 
 /* ---------- placeholders ---------- */
