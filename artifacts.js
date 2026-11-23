@@ -18,6 +18,24 @@ window.ARTIFACT_GROUPS = [
 
 window.ARTIFACTS = [
   {
+    group: "AIML 501",
+    title: "Machine Learning Algorithm Types (Workshop 1.5)",
+    description:
+      "A one-page, textbook-style reference that sorts eleven widely used machine learning algorithms two ways: by how they learn (supervised or unsupervised) and by where they are used (tabular data, computer vision, natural language processing, and generative AI). The algorithms are grouped into five families that share a mechanism, each with a plain-language explanation and real-world examples.",
+    contribution:
+      "Technical capability made legible. Knowing which family of algorithm fits which kind of data is the first step in scoping any AI project, and explaining it in plain language is what lets non-technical stakeholders take part in that decision.",
+    audience:
+      "IT colleagues, faculty, and institutional decision-makers who need a working map of the algorithm landscape before weighing a vendor proposal or a project idea, and students meeting these terms for the first time.",
+    value:
+      "A single-page reference for matching a problem to an approach. Classic algorithms remain the usual first choice for spreadsheet-shaped institutional data, deep networks earn their cost on images and language, and generative models train on unlabeled data. Useful for keeping a project proportionate to the budget and the data actually on hand.",
+    image: "algorithmtypes.png",
+    imageWidth: 800,
+    imageHeight: 1645,
+    imageAlt: "One-page reference titled 'Machine Learning Algorithm Types.' A table lists eleven algorithms in five families (trees, lines and margins, pattern finders, deep networks, and generators), marking each as supervised or unsupervised and showing its application domains: tabular data, vision, NLP, and generative AI. Key terms, a section summary, and check-your-understanding questions surround the table.",
+    link: "algorithmtypes.pdf",
+    linkLabel: "View the reference sheet →",
+  },
+  {
     group: "Past Classes",
     title: "AI/ML History Timeline (Workshop 1.5.1)",
     description:
