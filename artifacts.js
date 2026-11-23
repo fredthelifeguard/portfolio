@@ -2,11 +2,23 @@
  * Portfolio artifacts.
  *
  * Add, remove, or reorder entries here — the page rebuilds from this array.
- * Required fields per entry: title, description, contribution, audience, value.
+ * Required fields per entry: group, title, description, contribution, audience, value.
+ * `group` must match one of the dropdown titles in ARTIFACT_GROUPS below.
  * Set `placeholder: true` to render the "To be populated" badge.
  */
+
+/**
+ * Dropdowns shown under "Selected work", in display order.
+ * Set `open: true` on a dropdown to have it expanded when the page loads.
+ */
+window.ARTIFACT_GROUPS = [
+  { title: "AIML 501", open: true },
+  { title: "Past Classes" },
+];
+
 window.ARTIFACTS = [
   {
+    group: "Past Classes",
     title: "AI/ML History Timeline (Workshop 1.5.1)",
     description:
       "Built a visual timeline tracking the development of artificial intelligence and machine learning from early symbolic systems through modern frontier models. Designed as both a personal learning artifact and a scannable reference for colleagues new to the field.",
@@ -24,6 +36,7 @@ window.ARTIFACTS = [
     linkLabel: "View the timeline \u2192",
   },
   {
+    group: "Past Classes",
     title: "AI Help Desk Triage Assistant (Workshop 1.5.2)",
     description:
       "A complete design-thinking cycle applied to building an AI-powered help desk triage assistant for higher-education IT. Result is a working prototype in Chatbase, grounded in a redacted institutional knowledge base.",
@@ -41,6 +54,7 @@ window.ARTIFACTS = [
     linkLabel: "Open the live prototype \u2192",
   },
   {
+    group: "Past Classes",
     title: "Machine Learning vs Deep Learning (Workshop 2.5)",
     description:
       "An informative, brief paper using real-world use cases to describe the differences between machine learning and deep learning.",
@@ -58,6 +72,7 @@ window.ARTIFACTS = [
     linkLabel: "Read the paper \u2192",
   },
   {
+    group: "Past Classes",
     title: "AI as a Learning Medium (Workshop 3.5)",
     description:
       "Used a conversational AI tutor to learn neural network fundamentals, then stepped back to evaluate the tool itself as a teaching medium: where the tutored, dialogic format genuinely aided understanding, and where it fell short of a lecture or a text. A reflection on AI-mediated learning from the inside.",
@@ -74,6 +89,7 @@ window.ARTIFACTS = [
     link: "",  // SchoolAI session isn't publicly linkable; add a PDF export here to give this artifact an outbound link
   },
 {
+    group: "Past Classes",
     title: "AI Leadership & Governance Framework (Workshops 4.5 \u2192 6.5)",
     description:
       "A personal framework for leading AI adoption, built from a single foundational principle: AI is a contained tool, not a neutral one. Began in Workshop 4 as a governance framework with three operating practices; revised in Workshop 6 into a full leadership framework adding a mission statement, core values, measurable objectives, action plans, and evaluation mechanisms. The revision is deliberate: the framework's own evaluation section requires that it be versioned, revisited, and never silently out of date.",

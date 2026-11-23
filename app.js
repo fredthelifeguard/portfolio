@@ -77,12 +77,39 @@
     li.appendChild(main);
     return li;
   }
-  function render() {
-    var list = document.getElementById("artifact-list");
-    var items = (window.ARTIFACTS || []);
-    if (list) {
-      list.innerHTML = "";
+  function renderGroup(group, items) {
+    var details = el("details", { class: "group" });
+    if (group.open) details.setAttribute("open", "");
+    var count = items.length + (items.length === 1 ? " artifact" : " artifacts");
+    details.appendChild(el("summary", { class: "group__summary" }, [
+      el("span", { class: "group__title", text: group.title }),
+      el("span", { class: "group__count", text: count }),
+      el("span", { class: "group__chevron", "aria-hidden": "true" })
+    ]));
+    if (items.length) {
+      var list = el("ol", { class: "artifacts" });
       items.forEach(function (item) { list.appendChild(renderArtifact(item)); });
+      details.appendChild(list);
+    } else {
+      details.appendChild(el("p", { class: "group__empty", text: "Artifacts for this course will be added as they are completed." }));
+    }
+    return details;
+  }
+  function render() {
+    var container = document.getElementById("artifact-groups");
+    var items = (window.ARTIFACTS || []);
+    var groups = (window.ARTIFACT_GROUPS || []).slice();
+    if (container) {
+      // Any artifact whose group isn't listed still gets shown, in its own dropdown.
+      items.forEach(function (item) {
+        var name = item.group || "Other";
+        if (!groups.some(function (g) { return g.title === name; })) groups.push({ title: name });
+      });
+      container.innerHTML = "";
+      groups.forEach(function (group) {
+        var own = items.filter(function (item) { return (item.group || "Other") === group.title; });
+        container.appendChild(renderGroup(group, own));
+      });
     }
     var year = document.getElementById("year");
     if (year) year.textContent = String(new Date().getFullYear());
